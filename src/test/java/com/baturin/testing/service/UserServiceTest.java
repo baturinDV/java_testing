@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 //@TestInstance(TestInstance.Lifecycle.PER_CLASS) // значит создастся один класс для всех тестов
 @TestInstance(TestInstance.Lifecycle.PER_METHOD) // по умолчанию, значит для каждого теста новый экземпляр класс
-class UserServiceTest {
+public class UserServiceTest {
 
     private UserService userService;
 
